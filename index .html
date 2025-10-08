@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pipuyy</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      padding:0;
+      background: linear-gradient(135deg, #7c5cff, #00e0b8);
+      color:#333;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+    .card{
+      background:#fff;
+      border-radius:15px;
+      padding:25px;
+      width:320px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.15);
+      text-align:center;
+    }
+    .avatar{
+      width:100px;
+      height:100px;
+      border-radius:50%;
+      background:#7c5cff;
+      color:#fff;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-size:36px;
+      font-weight:bold;
+      margin:0 auto 15px;
+    }
+    h2{margin:10px 0 5px}
+    h4{margin:0; color:#555; font-weight:normal}
+    p{font-size:14px; color:#666; margin:10px 0}
+    .info{
+      text-align:left;
+      font-size:14px;
+      margin-top:15px;
+    }
+    .info strong{display:inline-block; width:90px}
+    .info a{
+      color:#7c5cff;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .info a:hover{
+      text-decoration:underline;
+    }
+
+    /* Running text */
+    .marquee {
+      margin-top: 20px;
+      width: 100%;
+      background: rgba(255,255,255,0.8);
+      color: #333;
+      padding: 10px 0;
+      font-size: 16px;
+      font-weight: bold;
+      overflow: hidden;
+      position: relative;
+    }
+    .marquee span {
+      display: inline-block;
+      white-space: nowrap;
+      padding-left: 100%;
+      animation: marquee 12s linear infinite;
+    }
+    @keyframes marquee {
+      from { transform: translateX(0%); }
+      to { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">rr</div>
+    <h2>ikyyy</h2>
+    <h4>Web Developer</h4>
+    <p>Seorang pengembang web yang menyukai desain modern dan coding sederhana.</p>
+    
+    <div class="info">
+      <p><strong>Nama:</strong> rizky ramadhan</p>
+      <p><strong>Lahir:</strong> 18 september 2008</p>
+      <p><strong>Alamat:</strong> Pekanbaru</p>
+      <p><strong>Email:</strong> ikyytmpn@gmail.com</p>
+      <p><strong>Instagram:</strong> 
+        <a href="https://instagram.com/hafivamhrn" target="_blank">@ikyyypprezzz</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Running Text -->
+  <div class="marquee">
+    <span>Selamat datang di website biodata saya!</span>
+  </div>
+</body>
+</html>
